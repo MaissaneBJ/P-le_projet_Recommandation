@@ -1,5 +1,5 @@
 import numpy as np
-import random as r
+import numpy.random as r
 def generate_low_rank(n,p,k):
     """Cette fonction génère une matrice de notations aléatoire de taille n*p et de rang k"""
     matrix = r.uniform(1, 5, (n, p)) #matrice tirée aléatoirement de façon uniforme à coefficients dans {1,...,5}
